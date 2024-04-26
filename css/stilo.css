@@ -1,0 +1,55 @@
+.fondo{
+    background-color: aqua;
+    border: solid 5px cadetblue;
+    width: 800px;
+    height: 580px;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    position: relative;
+    top: 50px;
+    text-align: left;
+}
+
+h1{
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    background: rgba(255, 255, 255, .7);
+    display: flex;
+    text-align: center;
+}
+#imagen{
+    width: 200px;
+    margin: 0 auto;
+}
+#word_to_find{
+    height: 3em;
+}
+
+#word_to_find span{
+    vertical-align: bottom; /*Alineación haca el final*/
+    font-size: 2em;
+    width: 30px; /*Crea un espacio la cual permite agregar un borde en la parte inferior */
+    border-bottom: 2px solid black;
+    margin-left: 2px;
+    display: inline-block;
+    
+}
+#letras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;/*Espacio entre items*/
+}
+#letras button{
+    width: 28px;
+    height: 30px;
+}
